@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集 | 個人網站</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 1rem 0; text-align: center; }
+        section { padding: 20px; max-width: 800px; margin: auto; background: white; margin-top: 20px; border-radius: 8px; }
+        .project { border-bottom: 1px solid #ddd; padding: 10px 0; }
+        .tag { background: #e2e2e2; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 5px; }
+        footer { text-align: center; padding: 20px; color: #777; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>[你的姓名] 的作品集</h1>
+    <p>致力於成為 [職位名稱，如：前端工程師]</p>
+</header>
+
+<section>
+    <h2>關於我</h2>
+    <p>你好！我是 [你的姓名]，熱衷於開發高品質的網頁。我具備使用 [技術 A, B, C] 的經驗。</p>
+</section>
+
+<section>
+    <h2>精選專案</h2>
+    <div class="project">
+        <h3>專案名稱 1</h3>
+        <p>描述這個專案解決了什麼問題，以及你使用了哪些技術。</p>
+        <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span>
+        <p><a href="[專案連結]">查看程式碼</a></p>
+    </div>
+</section>
+
+<section>
+    <h2>聯絡我</h2>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>LinkedIn: <a href="[你的LinkedIn網址]">個人檔案</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2026 [你的姓名] | 託管於 GitHub Pages</p>
+</footer>
+
+</body>
+</html>
